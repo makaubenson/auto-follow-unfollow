@@ -19,12 +19,12 @@ jobs:
 
         - name: execute php script # run the script.php
           run: |
-              php script.php fbiego ${{ secrets.flx_token }} ${{ secrets.telegram_api }} ${{ secrets.chat_id}}
+              php script.php makaubenson ${{ secrets.flx_token }} ${{ secrets.telegram_api }} ${{ secrets.chat_id}}
 
         - name: Pull and merge
           run: |
-                git config --local user.email "fbiego.fb@gmail.com"
-                git config --local user.name "fbiego"
+                git config --local user.email "bensonmakau2000@gmail.com"
+                git config --local user.name "Benson Makau"
                 # git add -A
                 # git commit -m "changes" -a
                 # git fetch origin main  # Fetch changes from the remote 'main' branch
